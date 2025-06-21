@@ -82,7 +82,7 @@ void menu() {
                     window.close();
                     break;
             }
-            SIZE =1;
+            SIZE =0;
             menuChoices(window,SIZE,"Choose board size:");
             sf::Event flushEvent;
             while (window.pollEvent(flushEvent)) {}
